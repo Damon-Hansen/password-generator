@@ -67,8 +67,9 @@ function generatePassword() {
       window.alert("You must type 'yes' to at least one of the four options!"); 
       }
   }   else {
-      window.alert("Please choose a number between 8 and 128");
+      window.alert("Please choose a number between 8 and 128");     
   }
+  return "Please try again!"
 }
 
 
